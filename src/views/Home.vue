@@ -50,7 +50,7 @@
     >
       <p class="font-bold">
         Software Engineer <br />
-        Building web and mobile products, <br />
+        Building web <br> and mobile products, <br />
         brands and experience
       </p>
     </div>
