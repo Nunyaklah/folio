@@ -20,19 +20,35 @@
         <span class="ml-3 font-bold">nunyaklah@gmail.com</span>
       </div>
       <div></div>
-      <div>
+      <div class="px-4 cursor-pointer md:hidden" id="burger">
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h8m-8 6h16"
+          ></path>
+        </svg>
+      </div>
+      <div class="hidden md:block" id="menu">
         <ul class="grid md:grid-cols-4">
           <li>
-            <a href="#">Works</a>
+            <a href="#works">Works</a>
           </li>
           <li>
-            <a href="#">Resume</a>
+            <a href="https://docs.google.com/document/d/1OkJfuoT9CJ5j2wNxAv2SCcEMQyjVBI2OyrxuMi6_akU/edit?usp=sharing" target="_blank">Resume</a>
           </li>
           <li>
-            <a href="#">Services</a>
+            <a href="#exp">Experience</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -51,13 +67,12 @@
       <p class="font-bold tracking-wide">
         Software Engineer <br />
         Building web <br />
-        and mobile products, <br />
-        brands and experience
+        and mobile products
       </p>
     </div>
     <div class="flex justify-center pt-8 text-center">
       <p class="font-bold text-xl">
-        I speacialize in Front End Development (VueJs and ReactJs), <br />
+        I specialize in Front End Development (VueJs and ReactJs), <br />
         converting UI designs into code. <br />Also count me in Mobile
         Application Develpment <br />(IOS and Android) using Flutter😉
       </p>
@@ -69,7 +84,7 @@
         Connect With Me
       </div>
     </div>
-    <div class="grid grid-cols-3 mt-20 gap-10 p-10">
+    <div class="grid md:grid-cols-3 mt-20 gap-10 p-10">
       <div class="col-span-1">
         <span>
           <img
@@ -115,7 +130,7 @@
         </span>
       </div>
     </div>
-    <div class="mt-20 grid grid-cols-3 p-20 gap-20">
+    <div class="mt-20 grid md:grid-cols-3 p-20 gap-20">
       <div class="">
         <h4 class="text-3xl pb-3 border-b border-gray-700 font-bold">
           Tech Stack
@@ -148,26 +163,32 @@
         </ul>
       </div>
     </div>
-    <div class="px-16">
+    <div class="px-16" id="exp">
       <h4 class="font-bold text-7xl border-b border-gray-900 pb-4">
         Who I've worked with
       </h4>
-      <div class="grid grid-cols-2 gap-10 pt-10">
+      <div class="grid md:grid-cols-2 gap-10 pt-10">
         <div class="">
           <h5 class="text-3xl font-bold">IDeyPay Ghana</h5>
           <small class="">Fintech</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            sapiente voluptates veritatis pariatur dignissimos, tempore ea. Quis
-            cum ipsa debitis repellat eos deserunt dolorum ut aspernatur
-            aperiam, porro voluptas odio!. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Nihil suscipit repellendus quae sit
-            amet eaque consequuntur sint doloremque in nam magni eum
-            necessitatibus aliquam minima quis, reprehenderit aspernatur!
-            Provident, at.
+            IdeyPay Ghana is a financial technology company that contributes to
+            the digitization of payments. The company is geared toward providing
+            smart, seamless and secure transactions. The compnay has a range of
+            products that facilitate digital payments, micro lending, e-commerce
+            and government bills and payments and so on. The company comprises
+            of a rare mix of talented individuals who work as a team and are
+            motivated to improve and create more channels for electronic payment
+            modes throughout West Africa
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
-            <p class="text-xl pr-2 border-b border-gray-700">Send me there</p>
+            <a
+              class="text-xl pr-2 border-b border-gray-700"
+              href="ideypay.com.gh"
+              target="_blank"
+            >
+              Send me there</a
+            >
             <svg
               class="w-6 h-6"
               fill="none"
@@ -188,14 +209,14 @@
           <h5 class="text-3xl font-bold">Wonchuni</h5>
           <small class="">Software Development</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            sapiente voluptates veritatis pariatur dignissimos, tempore ea. Quis
-            cum ipsa debitis repellat eos deserunt dolorum ut aspernatur
-            aperiam, porro voluptas odio!. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Nihil suscipit repellendus quae sit
-            amet eaque consequuntur sint doloremque in nam magni eum
-            necessitatibus aliquam minima quis, reprehenderit aspernatur!
-            Provident, at.
+            Wonchuni is a software development company that provides a variety
+            of software solutions to it's clients. Software solutions include
+            from Web Applications Development, Mobile Applications development,
+            Desktop Applications Development, User Inface Design , User
+            Experience Design, Social Media Marketting, Graphic Design and
+            Branding etc. Wonchuni is a local dilect (Ga) which means "We work"
+            and so as the name goes this company provides to its client the best
+            they can ask for when it comes to software
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
             <p class="text-xl pr-2 border-b border-gray-700">Send me there</p>
@@ -219,14 +240,10 @@
           <h5 class="text-3xl font-bold">The Address Ghana</h5>
           <small class="">Creative Agency</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            sapiente voluptates veritatis pariatur dignissimos, tempore ea. Quis
-            cum ipsa debitis repellat eos deserunt dolorum ut aspernatur
-            aperiam, porro voluptas odio!. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Nihil suscipit repellendus quae sit
-            amet eaque consequuntur sint doloremque in nam magni eum
-            necessitatibus aliquam minima quis, reprehenderit aspernatur!
-            Provident, at.
+            The Address is a 360-degrees brand marketing communications company.
+            They are in the business of providing bespoke solutions for all
+            companies. They are masters in turning brilliant thoughts into
+            value-laden solutions.
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
             <p class="text-xl pr-2 border-b border-gray-700">Send me there</p>
@@ -248,23 +265,23 @@
         </div>
       </div>
     </div>
-    <div class="px-16 pt-14">
+    <div class="px-16 pt-14" id="works">
       <h4 class="font-bold text-7xl border-b border-gray-900 pb-4">
         Projects I've worked on
       </h4>
-      <div class="grid grid-cols-2 gap-10 pt-10">
+      <div class="grid md:grid-cols-2 gap-10 pt-10">
         <div class="">
           <h5 class="text-3xl font-bold">Kutana Africa</h5>
           <small class="">VueJs • MongoDB • Nodejs</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            sapiente voluptates veritatis pariatur dignissimos, tempore ea. Quis
-            cum ipsa debitis repellat eos deserunt dolorum ut aspernatur
-            aperiam, porro voluptas odio!. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Nihil suscipit repellendus quae sit
-            amet eaque consequuntur sint doloremque in nam magni eum
-            necessitatibus aliquam minima quis, reprehenderit aspernatur!
-            Provident, at.
+            Kutana Africa is a start up company that seeks to promote other
+            startups. This project is basically focused on bringing all startups
+            around the world on a single platform. Startups get the portal to
+            register their startups and then this startups are fetured on
+            Kutana's homepage. Any user, investor or person interested in a
+            startup can visit the search and make a search for the particular
+            startup. Advanced search options exist where users can search based
+            on country , region or key word of a startup.
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
             <p class="text-xl pr-2 border-b border-gray-700">Take a look</p>
@@ -288,14 +305,13 @@
           <h5 class="text-3xl font-bold">IdeyPay Till Engine</h5>
           <small class="">VueJs • MongoDB • NodeJs</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            sapiente voluptates veritatis pariatur dignissimos, tempore ea. Quis
-            cum ipsa debitis repellat eos deserunt dolorum ut aspernatur
-            aperiam, porro voluptas odio!. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Nihil suscipit repellendus quae sit
-            amet eaque consequuntur sint doloremque in nam magni eum
-            necessitatibus aliquam minima quis, reprehenderit aspernatur!
-            Provident, at.
+            The Till Engine (Odem) is a finacial product that allows merchants
+            to receive payments. It processes payments and shows a transaction
+            history , allowing a merchat to trace and account for products,
+            goods or services which have been paid for through the till. This
+            product allows for invoicing, card payments etc. The product allows
+            for third parties to integrate via API keys. The product ensures
+            security, has a beautiful user interface and experience
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
             <p class="text-xl pr-2 border-b border-gray-700">Take a look</p>
@@ -319,14 +335,15 @@
           <h5 class="text-3xl font-bold">Quevy</h5>
           <small class="">Dart • Flutter • Firebase</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            sapiente voluptates veritatis pariatur dignissimos, tempore ea. Quis
-            cum ipsa debitis repellat eos deserunt dolorum ut aspernatur
-            aperiam, porro voluptas odio!. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Nihil suscipit repellendus quae sit
-            amet eaque consequuntur sint doloremque in nam magni eum
-            necessitatibus aliquam minima quis, reprehenderit aspernatur!
-            Provident, at.
+            Quevy is an Android app built using Dart and Flutter. The app allows
+            users to collect feedback, questions or complains form a targetted
+            audience. All users need to do is generate a unique four digit code
+            which can be used both to send in feedback, questions and complians
+            and also view those entries sent in. Quevy was built with
+            conferences in mind where audience can send their questions or
+            suggestions to a speaker before or after a talk. Also it can be used
+            to gather feedback about a product from the public. This is a
+            personal project i built and it is currently on the Google PlayStore
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
             <p class="text-xl pr-2 border-b border-gray-700">Take a look</p>
@@ -350,14 +367,13 @@
           <h5 class="text-3xl font-bold">The Address Website</h5>
           <small class="">VueJs</small>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            sapiente voluptates veritatis pariatur dignissimos, tempore ea. Quis
-            cum ipsa debitis repellat eos deserunt dolorum ut aspernatur
-            aperiam, porro voluptas odio!. Lorem ipsum dolor sit amet
-            consectetur, adipisicing elit. Nihil suscipit repellendus quae sit
-            amet eaque consequuntur sint doloremque in nam magni eum
-            necessitatibus aliquam minima quis, reprehenderit aspernatur!
-            Provident, at.
+            The Address is a 360-degrees brand marketing communications company.
+            They are in the business of providing bespoke solutions for all
+            companies. They are masters in turning brilliant thoughts into
+            value-laden solutions. This particular project is the webiste of The
+            Address. It was built with VueJs and Bulma CSS with some animations.
+            The website is simple yet provides its visitors with appropriate
+            information in a clean and minimalist manner.
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
             <p class="text-xl pr-2 border-b border-gray-700">Take a look</p>
@@ -379,24 +395,54 @@
         </div>
       </div>
     </div>
-    <h4 class="font-bold text-4xl flex justify-center mt-20">Want to see me ?</h4>
-    <div class="flex p-14 justify-center items-center">
-      <div class="relative">
-        <img class="w-72 h-72 object-cover rounded" src="../assets/images/klah.jpg" alt="">
-        <div class="bg-blue-100 rounded-full w-40 absolute top-2"> </div>
+    <h4 class="font-bold text-4xl flex justify-center mt-20">
+      Want to see me ?
+    </h4>
+    <div class="grid md:grid-cols-2 pt-7  pb-20" id="contact">
+      <div class="place-self-center">
+        <img
+          class="w-72 h-72 object-cover rounded shadow-lg transform hover:scale-125 transition ease-out duration-300"
+          src="../assets/images/yao.jpg"
+          alt=""
+        />
       </div>
-      <div class="pl-20 ">
+      <div class=" mt-7 text-center sm:text-left place-self-center">
         <h5 class="font-bold text-xl">A little more👌</h5>
-        <p class="pt-5 w-64">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas voluptate reiciendis quaerat quibusdam dicta aliquam facere cumque praesentium nobis. Saepe earum quia dolorem? Quod eius a soluta nemo consequuntur! Quos.</p>
+        <p class="pt-5 w-64">
+          I am a highly motivated individual who is ever ready to learn and
+          improve upon my skills. You can count on me for your Front End
+          projects. Interested ? Just send me a mail and lets do some magic 😉
+        </p>
         <p class="text-xs font-semibold text-gray-400 mt-5">Nunya Yao Klah</p>
         <p class="text-xs font-semibold text-gray-400">nunyaklah@gmail.com</p>
+        <p class="text-xs font-semibold text-gray-400">Twitter : @klah_yao</p>
+        <p class="text-xs font-semibold text-gray-400">GitHub : Nunyaklah</p>
       </div>
       <div>
-        <img class="w-24" src="../assets/images/feather.png" alt="">
+       
       </div>
     </div>
   </div>
 </template>
 
 <script>
+export default {
+  data() {
+    return {
+      ideypay: "www.ideypay.com.gh",
+    };
+  },
+  mounted() {
+    const burger = document.querySelector("#burger");
+    const menu = document.querySelector("#menu");
+
+    burger.addEventListener("click", () => {
+      if (menu.classList.contains("hidden")) {
+        menu.classList.remove("hidden");
+      } else {
+        menu.classList.add("hidden");
+      }
+    });
+  },
+};
 </script>
