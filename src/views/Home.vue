@@ -53,7 +53,7 @@
         </ul>
       </div>
     </nav>
-    <div class="flex justify-center">
+    <div class="flex justify-center" data-aos="slide-down">
       <div class="bg-blue-100 rounded-full w-40">
         <img src="../assets/images/nunya.png" alt="Nunya" class="w-40" />
       </div>
@@ -85,8 +85,8 @@
       </div>
     </div>
     <div class="grid md:grid-cols-3 mt-20 gap-10 p-10">
-      <div class="col-span-1">
-        <span>
+      <div class="col-span-1" data-aos="fade-right">
+        <span >
           <img
             class="mb-10 h-96 object-cover"
             src="../assets/images/camera.jpg"
@@ -101,7 +101,7 @@
           />
         </span>
       </div>
-      <div class="col-span-1">
+      <div class="col-span-1" data-aos="fade-up">
         <span>
           <img
             class="mb-10 h-96 object-cover"
@@ -117,7 +117,7 @@
           />
         </span>
       </div>
-      <div class="col-span-1">
+      <div class="col-span-1" data-aos="fade-left">
         <span>
           <img class="mb-10" src="../assets/images/laptop.jpg" alt="camera" />
         </span>
@@ -131,18 +131,18 @@
       </div>
     </div>
     <div class="mt-20 grid md:grid-cols-3 p-20 gap-20">
-      <div class="">
+      <div class="" data-aos="fade-down">
         <h4 class="text-3xl pb-3 border-b border-gray-700 font-bold">
           Tech Stack
         </h4>
-        <ul class="mt-7 text-xl">
+        <ul class="mt-7 text-xl" >
           <li>JavaScript • Vue</li>
           <li>JavaScript • React</li>
           <li>Flutter • Dart</li>
           <li>Tailwind CSS • BootStrap • Bulma</li>
         </ul>
       </div>
-      <div class="">
+      <div class="" data-aos="fade-up">
         <h4 class="text-3xl pb-3 border-b border-gray-700 font-bold">
           UI Design
         </h4>
@@ -152,11 +152,11 @@
           <li>Adobe Illustrator</li>
         </ul>
       </div>
-      <div class="">
+      <div class="" data-aos="fade-down">
         <h4 class="text-3xl pb-3 border-b border-gray-700 font-bold">
           Infrastructure
         </h4>
-        <ul class="mt-7 text-xl">
+        <ul class="mt-7 text-xl" data-aos =" fade-left">
           <li>AWS</li>
           <li>Google Cloud</li>
           <li>Heroku</li>
@@ -168,7 +168,7 @@
         Who I've worked with
       </h4>
       <div class="grid md:grid-cols-2 gap-10 pt-10">
-        <div class="">
+        <div class="" data-aos="fade-left">
           <h5 class="text-3xl font-bold">IDeyPay Ghana</h5>
           <small class="">Fintech</small>
           <p>
@@ -205,7 +205,7 @@
             </svg>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h5 class="text-3xl font-bold">Wonchuni</h5>
           <small class="">Software Development</small>
           <p>
@@ -236,7 +236,7 @@
             </svg>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h5 class="text-3xl font-bold">The Address Ghana</h5>
           <small class="">Creative Agency</small>
           <p>
@@ -270,7 +270,7 @@
         Projects I've worked on
       </h4>
       <div class="grid md:grid-cols-2 gap-10 pt-10">
-        <div class="">
+        <div class="" data-aos="fade-left">
           <h5 class="text-3xl font-bold">Kutana Africa</h5>
           <small class="">VueJs • MongoDB • Nodejs</small>
           <p>
@@ -301,11 +301,11 @@
             </svg>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h5 class="text-3xl font-bold">IdeyPay Till Engine</h5>
           <small class="">VueJs • MongoDB • NodeJs</small>
           <p>
-            The Till Engine (Odem) is a finacial product that allows merchants
+            The Till Engine (Odem) is a financial product that allows merchants
             to receive payments. It processes payments and shows a transaction
             history , allowing a merchat to trace and account for products,
             goods or services which have been paid for through the till. This
@@ -331,7 +331,7 @@
             </svg>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h5 class="text-3xl font-bold">Quevy</h5>
           <small class="">Dart • Flutter • Firebase</small>
           <p>
@@ -363,7 +363,7 @@
             </svg>
           </div>
         </div>
-        <div>
+        <div data-aos="fade-left">
           <h5 class="text-3xl font-bold">The Address Website</h5>
           <small class="">VueJs</small>
           <p>
@@ -399,14 +399,14 @@
       Want to see me ?
     </h4>
     <div class="grid md:grid-cols-2 pt-7  pb-20" id="contact">
-      <div class="place-self-center">
+      <div class="place-self-center" data-aos="fade-right">
         <img
           class="w-72 h-72 object-cover rounded shadow-lg transform hover:scale-125 transition ease-out duration-300"
           src="../assets/images/yao.jpg"
           alt=""
         />
       </div>
-      <div class=" mt-7 text-center sm:text-left place-self-center">
+      <div class=" mt-7 text-center sm:text-left place-self-center" data-aos="fade-left">
         <h5 class="font-bold text-xl">A little more👌</h5>
         <p class="pt-5 w-64">
           I am a highly motivated individual who is ever ready to learn and
