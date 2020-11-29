@@ -184,7 +184,7 @@
           <div class="flex items-center pt-2 cursor-pointer">
             <a
               class="text-xl pr-2 border-b border-gray-700"
-              href="ideypay.com.gh"
+              href="http://ideypay.com.gh"
               target="_blank"
             >
               Send me there</a
@@ -206,20 +206,20 @@
           </div>
         </div>
         <div data-aos="fade-left">
-          <h5 class="text-3xl font-bold">Wonchuni</h5>
+          <h5 class="text-3xl font-bold">Machu Digital</h5>
           <small class="">Software Development</small>
           <p>
-            Wonchuni is a software development company that provides a variety
+            Machu Digital is a software development company that provides a variety
             of software solutions to it's clients. Software solutions include
             from Web Applications Development, Mobile Applications development,
             Desktop Applications Development, User Inface Design , User
             Experience Design, Social Media Marketting, Graphic Design and
-            Branding etc. Wonchuni is a local dilect (Ga) which means "We work"
-            and so as the name goes this company provides to its client the best
+            Branding etc. Machu Digital is a place where our moto is  "We work"
+            and so as the moto goes this company provides to its client the best
             they can ask for when it comes to software
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
-            <p class="text-xl pr-2 border-b border-gray-700">Send me there</p>
+            <a href="https://www.machudigital.com/" target="_blank" class="text-xl pr-2 border-b border-gray-700">Send me there</a>
             <svg
               class="w-6 h-6"
               fill="none"
@@ -246,7 +246,7 @@
             value-laden solutions.
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
-            <p class="text-xl pr-2 border-b border-gray-700">Send me there</p>
+            <a href = "https://theaddress.herokuapp.com/" target="_blank" class="text-xl pr-2 border-b border-gray-700">Send me there</a>
             <svg
               class="w-6 h-6"
               fill="none"
@@ -284,7 +284,7 @@
             on country , region or key word of a startup.
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
-            <p class="text-xl pr-2 border-b border-gray-700">Take a look</p>
+            <a href="https://startupcrowd-home.herokuapp.com/" target="_blank" class="text-xl pr-2 border-b border-gray-700">Take a look</a>
             <svg
               class="w-6 h-6"
               fill="none"
@@ -314,7 +314,7 @@
             security, has a beautiful user interface and experience
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
-            <p class="text-xl pr-2 border-b border-gray-700">Take a look</p>
+            <a href="#" target="_blank" class="text-xl pr-2 border-b border-gray-700">Take a look</a>
             <svg
               class="w-6 h-6"
               fill="none"
@@ -346,7 +346,7 @@
             personal project i built and it is currently on the Google PlayStore
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
-            <p class="text-xl pr-2 border-b border-gray-700">Take a look</p>
+            <a href="https://play.google.com/store/apps/details?id=nunyaklah.quevy_final" target="_blank" class="text-xl pr-2 border-b border-gray-700">Take a look</a>
             <svg
               class="w-6 h-6"
               fill="none"
@@ -376,7 +376,7 @@
             information in a clean and minimalist manner.
           </p>
           <div class="flex items-center pt-2 cursor-pointer">
-            <p class="text-xl pr-2 border-b border-gray-700">Take a look</p>
+             <a href = "https://theaddress.herokuapp.com/" target="_blank" class="text-xl pr-2 border-b border-gray-700">Take a look</a>
             <svg
               class="w-6 h-6"
               fill="none"
