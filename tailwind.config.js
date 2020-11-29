@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        body: ['Nunito'],
-        head: ['Poppins']
+        body: ['DM Sans'],
       }
     },
   },
