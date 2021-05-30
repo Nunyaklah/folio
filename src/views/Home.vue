@@ -42,7 +42,7 @@
             <a href="#works">Works</a>
           </li>
           <li>
-            <a href="https://docs.google.com/document/d/1OkJfuoT9CJ5j2wNxAv2SCcEMQyjVBI2OyrxuMi6_akU/edit?usp=sharing" target="_blank">Resume</a>
+            <a href="https://docs.google.com/document/d/1ZhEn85otVq396LA3DFnMZ47f_s81PCmhZ2lgzfSapS8/edit?usp=sharing" target="_blank">Resume</a>
           </li>
           <li>
             <a href="#exp">Experience</a>
